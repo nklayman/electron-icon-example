@@ -2,9 +2,13 @@ const execa = require('execa')
 const fs = require('fs-extra')
 const path = require('path')
 
-execa('electron-icon-maker', ['--input=./icon.png', '--output=./build'], {
-  stdio: 'inherit'
-})
+execa(
+  'electron-icon-maker',
+  ['--input=./public/icon.png', '--output=./build'],
+  {
+    stdio: 'inherit'
+  }
+)
   .then(() => {
     fs.readdirSync('./build/icons/png').forEach(file => {
       fs.copyFileSync(
