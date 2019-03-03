@@ -3515,10 +3515,10 @@ electron-download@^4.1.0:
     semver "^5.4.1"
     sumchecker "^2.0.2"
 
-electron-icon-maker@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/electron-icon-maker/-/electron-icon-maker-0.0.4.tgz#0766087c270a736d0857204bb72130d574d91c51"
-  integrity sha512-7Lp5VJH7T7jy0YoM5Qz/pEaJloshTYzb73+ra4Nxhvf7UUs/z/FZW1nJ1dC9vaZqVvzZZduYIa9ELQpiqPnLTg==
+electron-icon-builder@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/electron-icon-builder/-/electron-icon-builder-1.0.0.tgz#54ca38a05dd1c302eaaa79eaa4ee652facc6ab88"
+  integrity sha512-JEuZxpg4DlGbny7O9y/hiAbekUt9GN7VKtARPV3HsT70R/OBpKImn+e4UemJ0CJLi10g6v+7kxrBk5SadXlR0w==
   dependencies:
     args "^2.3.0"
     icon-gen "1.0.7"
